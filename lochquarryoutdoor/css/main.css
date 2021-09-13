@@ -1,0 +1,146 @@
+/* CSS formatting - external file */
+
+/* logo */
+.logo {
+   margin: 0 auto;
+    display: block;
+}
+
+/* main body */
+body {
+    margin: 0;
+    font-family: 'Arial';
+    background-color: lightgreen;
+    background-size: cover;
+    background-repeat: no repeat;    
+}
+
+/* external hyperlink */
+.link {
+    background-color:#ECFFDC;  
+    text-align:center;  
+}
+
+/* light background for body */
+.lightback{  
+    background-color:#ECEAEA;  
+    color:black;   
+    text-align:left;  
+}  
+
+/* reviews */
+.review{  
+    background-color:#ECEAEA;  
+    color:black;   
+    text-align:center;  
+}  
+
+/* external hyperlink */
+.hyperlink{  
+    background-color:#ECFFFF;  
+    color:black;   
+    text-align:center;  
+}  
+
+/* formatting of html table */
+.table {
+    border:0.25px black;
+    background-color:#ECEAEA;  
+    text-align:center;  
+}
+
+/* main body */
+#main {
+    width: 70%;
+    background-color: lightgrey;
+    margin: 0px auto;
+    max-width: 1000px;    
+}
+
+/* navigation menu */
+nav {
+    text-align: center;
+    padding: 30px;
+    background-color: lightgreen;   
+    background-repeat: no-repeat; /*remove this*/
+    background-position: left center; /*remove this*/
+   }
+   
+/* navigation menu hyperlink */
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+/* navigation menu hyperlink on click */
+nav a:hover {
+    color: #590000; 
+}
+
+/* numbered list */
+ul {
+    padding-left: 10%;
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+/* various formats */
+#main p,h1,h2,h3{
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 170%;
+}
+
+/* main top picture on each page */
+.sectionpic{
+    width: 100%;
+}
+
+/* format width of staff pictures to 50 % */
+.staffpic{
+    width: 50%;
+}
+
+/*contact form page */
+
+/* iframe */
+iframe {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* input for contact form */
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+}
+
+/* submit button for contact enquiry page */
+input[type="submit"] {
+    background-color :green;
+    border: none;
+    color: black;
+    padding:16px 32px;
+    margin: 5px 5px;
+}
+
+/* format for contact page */
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
